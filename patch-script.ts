@@ -6,7 +6,8 @@ import { existsSync } from "fs";
 import { cp, readFile, writeFile } from "fs/promises";
 import path, { join } from "path";
 
-const repoUrl = "https://forge.strawmelonjuice.com/CynthiaWebsiteEngine/Mini.git";
+const repoUrl =
+  "https://forge.strawmelonjuice.com/CynthiaWebsiteEngine/Mini.git";
 const branch = "main";
 const patchesDir = "patches/files";
 const specialPatchesDir = "patches/special";
